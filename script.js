@@ -4,7 +4,7 @@ const button = document.getElementById('reset-grid');
 button.onclick = () => {
     let dimsCheck = true;
     while (dimsCheck) {
-        let newDims = prompt('Please enter a new grid width between 100 and 100.');
+        let newDims = prompt('Please enter a new grid width (from 10 to 100.');
         newDims = parseInt(newDims);
         if (newDims > 0 && newDims <= 100) {
             dims = newDims;
